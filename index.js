@@ -8,7 +8,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(timeString) {
-  const houe = parseInt(timeString, 10)
+  const hour = parseInt(timeString, 10)
   if (hour < 12) {
     greeting = "Good Morning"
   }
